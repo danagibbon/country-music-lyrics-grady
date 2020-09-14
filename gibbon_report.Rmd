@@ -40,6 +40,8 @@ song_list <- read.csv(here("data","songs_top_30.csv"))
 song_list <- song_list[1:484,1:8]
 # get stop words
 data(stop_words)
+stop_words <- stop_words %>%
+  filter(!(word == "little"))
 ```
 
 # Summary Tables
