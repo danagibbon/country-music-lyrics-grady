@@ -80,7 +80,7 @@ years <- year_list$Entered.Top.30.In.
 years <- years[-1]
 # words to look for
 veh <- c("truck", "pickup", "chevy", "ford", "tacoma", 
-         "chevrolet", "tailgate")
+         "chevrolet", "tailgate", "car")
 cl <- c("jeans", "cutoffs", "jean", "shirt", "hat", 
         "shoe", "dress", "boots")
 dr <- c("beer", "drink", "wine", "whiskey", "shots",
